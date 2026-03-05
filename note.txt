@@ -1,0 +1,5 @@
+window object -- the window object reprseents an open window ina browser it is browsers's objest (not java scriopt's) & is automatically created by browser.
+its is a global objest with lots of properties & methods .
+
+console.log-- for simply printng 
+console.dir-- for printing documnets's properties methods

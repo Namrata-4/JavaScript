@@ -112,7 +112,41 @@
 // };
 
 //chap2-prob8
- const prompt = require('prompt-sync')({sigint: true});
-let age=prompt("whst is your age?");
-const age1=Number.parseInt(age);
-console.log(age1>18 ? "you can drive" : "you cant drive");
+//  const prompt = require('prompt-sync')({sigint: true});
+// let age=prompt("whst is your age?");
+// const age1=Number.parseInt(age);
+// console.log(age1>18 ? "you can drive" : "you cant drive");
+
+//chap3-prob8
+// let marks={
+//     namrata:60,
+//     ruhi:40,
+//     ravi:89,
+//     ritu:20
+// }
+// let keys=Object.keys(marks);
+// for(let i=0;i<keys.length;i++){
+//     console.log("the marks of"+keys[i]+" are "+marks[keys[i]]);
+// }
+
+////chap3-prob9
+// for(let key in marks){
+//     console.log("the marks of"+key+" are "+marks[key]);
+// }
+
+
+////chap3-prob10
+// const prompt = require('prompt-sync')({sigint: true});
+// let correctNumber=45;
+// let i
+// while(i!=correctNumber){
+// i=prompt("enter a number :")
+// i=Number.parseInt(i);
+// }
+// console.log("you have guessed the correctnumber");
+
+////chap3-prob11
+const mean=(a,b,c,d)=>{
+    return(a+b+c+d)/4
+}
+console.log(mean(2,4,5,6));

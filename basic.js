@@ -125,8 +125,10 @@
 // else{
 //     alert("not valid");
 // };
+
+// how to use prompt command --
 const prompt = require('prompt-sync')();
-const notifier = require('node-notifier'); // Import the notifier
+const notifier = require('node-notifier'); 
 
 // STEP 1: Define 'alert' so Node.js knows what it is
 const alert = (message) => {

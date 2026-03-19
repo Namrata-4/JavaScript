@@ -146,7 +146,28 @@
 // console.log("you have guessed the correctnumber");
 
 ////chap3-prob11
-const mean=(a,b,c,d)=>{
-    return(a+b+c+d)/4
-}
-console.log(mean(2,4,5,6));
+// const mean=(a,b,c,d)=>{
+//     return(a+b+c+d)/4
+// }
+// console.log(mean(2,4,5,6));
+
+////chap4-prob12
+// let str="nam\"";
+// console.log(str.length);
+
+////chap4-prob12
+// const sentence="i am learing js with code with harry";
+// const word="js";
+// console.log(sentence.includes(word));
+// console.log(`the word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+
+////chap4-prob12
+// let str="please give rs 1000";
+// let amont=Number.parseInt(str.slice(15));
+// console.log(amont);
+// console.log(typeof(amont));
+
+////chap4-prob12
+let friend="masum";
+friend[3]="h"; // you cant change a existing string as they are immutable in natureb
+console.log(friend);

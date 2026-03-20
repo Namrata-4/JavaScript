@@ -168,6 +168,15 @@
 // console.log(typeof(amont));
 
 ////chap4-prob12
-let friend="masum";
-friend[3]="h"; // you cant change a existing string as they are immutable in natureb
-console.log(friend);
+// let friend="masum";
+// friend[3]="h"; // you cant change a existing string as they are immutable in natureb
+// console.log(friend);
+
+
+////chap5-prob13
+const prompt = require('prompt-sync')();
+let arr=[1,2,3,4,67,43];
+let a=prompt("enter a number");
+a=Number.parseInt(a);
+arr.push(a);
+console.log(arr);
